@@ -238,6 +238,7 @@ background-size: cover;
 #hero {
 background-size: contain;
 }
+}
 
 #hero:before {
   content: "";
