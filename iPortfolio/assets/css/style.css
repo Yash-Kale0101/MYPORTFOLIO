@@ -234,12 +234,6 @@ background: url('../img/herobg.jpg') top center;
 background-size: cover;
 }
 
-@media screen and (min-width: 768px) {
-#hero {
-background-size: contain;
-}
-}
-
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
