@@ -228,10 +228,15 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
-  background: url('../iPortfolio/assets/img/herobg.jpg') top center;
-  background-size: cover;
+width: 100%;
+height: 100vh;
+background: url('../img/herobg.jpg') top center;
+background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+#hero {
+background-size: contain;
 }
 
 #hero:before {
